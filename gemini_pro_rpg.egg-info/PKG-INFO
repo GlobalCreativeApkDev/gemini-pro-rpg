@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: gemini-pro-rpg
+Version: 0.5
+Summary: This package contains implementation of the role-playing game (RPG) with Gemini Pro integrated into it.
+Home-page: https://github.com/GlobalCreativeApkDev/gemini-pro-rpg
+Author: GlobalCreativeApkDev
+Author-email: globalcreativeapkdev2022@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # gemini-pro-rpg
 
 Interested in playing a dynamic role-playing game (RPG)? **Gemini Pro RPG** allows such feature with Gemini Pro integrated
