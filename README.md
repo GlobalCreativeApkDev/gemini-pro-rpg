@@ -97,6 +97,7 @@ defeated you or you fled, you will not level up at all but your HP will be resto
 3. Supports dynamic player exploration RPG on command-line interface (pending)
 4. Supports custom RPG on command-line interface (pending)
 5. Supports dynamic graphical user interface RPG (pending)
+6. Supports Python for Unity (pending)
 
 # Version History
 
@@ -108,5 +109,8 @@ defeated you or you fled, you will not level up at all but your HP will be resto
 * Allows the player to play a dynamic player exploration RPG on command-line interface
 * Allows the player to play a customised and dynamic RPG based on the specifications he/she wants on command-line interface.
 
-3. Version 2 (Release Date: TBA, 2024):
+3. Version 1.5 (Release Date: TBA, 2024):
 * Allows the player to play a dynamic graphical user interface RPG
+
+4. Version 2 (Release Date: TBA, 2024):
+* Supports Python for Unity
