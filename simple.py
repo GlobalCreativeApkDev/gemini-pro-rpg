@@ -1,5 +1,5 @@
 """
-This file contains code for the game "Gemini Pro RPG".
+This file contains code for generating a simple turn-based RPG using Gemini Pro.
 Author: GlobalCreativeApkDev
 """
 
@@ -239,7 +239,7 @@ def main() -> int:
                                        safety_settings=safety_settings)
 
         game_name = input("Enter the name of the game you are playing: ")
-        saved_game_files: list = [f for f in os.listdir("saved")]
+        saved_game_files: list = [f for f in os.listdir("saved_simple")]
         while game_name in saved_game_files:
             print("Below is a list of existing games:\n")
             for i in range(len(saved_game_files)):
@@ -263,7 +263,7 @@ def main() -> int:
     else:
         clear()
 
-        saved_game_files: list = [f for f in os.listdir("saved")]
+        saved_game_files: list = [f for f in os.listdir("saved_simple")]
         if len(saved_game_files) == 0:
             return 1  # cannot play any game!
 
@@ -280,7 +280,7 @@ def main() -> int:
 
             game_name = input("Sorry, invalid input! What game do you want to play? ")
 
-        saved_game_data = load_game_data(os.path.join("saved", game_name))
+        saved_game_data = load_game_data(os.path.join("saved_simple", game_name))
 
         # Set up the model
         generation_config = {
@@ -301,7 +301,7 @@ def main() -> int:
         print("Enter anything else for no.")
         continue_playing: str = input("Do you want to continue playing? ")
         if continue_playing != "Y":
-            save_game_data(saved_game_data, os.path.join("saved", game_name))
+            save_game_data(saved_game_data, os.path.join("saved_simple", game_name))
             return 0  # successfully saved the game
 
         clear()
