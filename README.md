@@ -93,12 +93,11 @@ defeated you or you fled, you will not level up at all but your HP will be resto
 # Progress
 
 1. Supports dynamic simple turn-based RPG on command-line interface (done)
-2. Supports dynamic creature battle turn-based RPG with items, levels, shops, resources, etc on command-line interface (pending)
-3. Supports dynamic creature hunter turn-based RPG with items, levels, shops, resources, etc on command-line interface (pending)
-4. Supports dynamic player exploration RPG on command-line interface (pending)
-5. Supports custom RPG on command-line interface (pending)
-6. Supports dynamic graphical user interface RPG (pending)
-7. Supports Python for Unity (pending)
+2. Supports dynamic complex turn-based RPG with items, levels, shops, resources, etc on command-line interface (pending)
+3. Supports dynamic player exploration RPG on command-line interface (pending)
+4. Supports custom RPG on command-line interface (pending)
+5. Supports dynamic graphical user interface RPG (pending)
+6. Supports Python for Unity (pending)
 
 # Version History
 
@@ -106,19 +105,12 @@ defeated you or you fled, you will not level up at all but your HP will be resto
 * Allows the player to play a dynamic simple turn-based RPG on command-line interface
 
 2. Version 1 (Release Date: TBA, 2024):
-* Allows the player to play a dynamic creature battle turn-based strategy RPG with items, levels, shops, resources, etc on command-line interface
-
-3. Version 1.5 (Release Date: TBA, 2024):
-* Allows the player to play a dynamic creature hunter turn-based strategy RPG with items, levels, shops, resources, etc on command-line interface
-
-4. Version 2 (Release Date: TBA, 2024):
+* Allows the player to play a dynamic complex turn-based strategy RPG with items, levels, shops, resources, etc on command-line interface
 * Allows the player to play a dynamic player exploration RPG on command-line interface
-
-5. Version 2.5 (Release Date: TBA, 2024):
 * Allows the player to play a customised and dynamic RPG based on the specifications he/she wants on command-line interface.
 
-6. Version 3 (Release Date: TBA, 2024):
+3. Version 1.5 (Release Date: TBA, 2024):
 * Allows the player to play a dynamic graphical user interface RPG
 
-7. Version 3.5 (Release Date: TBA, 2024):
+4. Version 2 (Release Date: TBA, 2024):
 * Supports Python for Unity

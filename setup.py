@@ -30,12 +30,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "main=main:main",
             "simple=simple:main",
-            "creature_battle=creature_battle:main",
-            "creature_hunter=creature_hunter:main",
-            "player_exploration=player_exploration:main",
-            "custom=custom:main",
         ]
     }
 )
