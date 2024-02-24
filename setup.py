@@ -9,7 +9,7 @@ def readme():
 
 setup(
     name='gemini-pro-rpg',
-    version='1',
+    version='1.2',
     packages=['gemini-pro-rpg'],
     url='https://github.com/GlobalCreativeApkDev/gemini-pro-rpg',
     license='MIT',
@@ -30,7 +30,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "simple=simple:main",
+            "main=main:main",
         ]
     }
 )
