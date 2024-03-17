@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def readme():
@@ -9,8 +9,8 @@ def readme():
 
 setup(
     name='gemini-pro-rpg',
-    version='1.3',
-    packages=['gemini-pro-rpg'],
+    version='1.4',
+    packages=find_packages(),
     url='https://github.com/GlobalCreativeApkDev/gemini-pro-rpg',
     license='MIT',
     author='GlobalCreativeApkDev',
